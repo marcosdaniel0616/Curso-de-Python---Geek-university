@@ -12,4 +12,3 @@ para determinado tipo de dado ou variável.
 help(tipo de dado/ variável.propriedade)
 """
 print(dir('geek'))
-print('Testando push')
