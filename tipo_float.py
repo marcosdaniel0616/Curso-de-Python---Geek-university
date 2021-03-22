@@ -35,4 +35,5 @@ print(type(res))
 
 # Podemos trabalhar com números complexos
 variavel = 5j
+print(variavel)
 print(type(variavel))
