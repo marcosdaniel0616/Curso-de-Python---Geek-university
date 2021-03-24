@@ -47,8 +47,29 @@ OBS: O valor final não é inclusivo.
 9
 10 - Não
     print(numero)
-"""
+
+for indice, letra in enumerate(nome):
+    print(nome[índice])
+
+for _, letra in enumerate(nome):
+    print(indice)
+    print(letra)
+
+OBS: Quando não precisamos de um valor, podemos descartá-lo utilizando o underline(_)
 
 nome = 'Geek University'
 lista = [1, 3, 5, 7, 9]
 numeros = range(1, 10)  # temos que transformar em uma lista
+
+
+for valor in enumerate(nome):
+    print(valor)
+"""
+
+qtd = int(input('Quantas vezes esse loop deve rodar? '))
+soma = 0
+
+for n in range(1, qtd + 1):
+    num = int(input(f'Informe o {n}/{qtd} valor: '))
+    soma += num
+print(f'A soma é {soma}')
