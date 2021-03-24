@@ -38,5 +38,5 @@ if numero > 10:
     novo = numero + 10  # A variável 'novo' está declarada localmente dentro do bloco do if. Portanto, é local.
     print(novo)
 
-novo
+print(novo)
 
