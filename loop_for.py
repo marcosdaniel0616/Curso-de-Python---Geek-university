@@ -64,7 +64,7 @@ numeros = range(1, 10)  # temos que transformar em uma lista
 
 for valor in enumerate(nome):
     print(valor)
-"""
+
 
 qtd = int(input('Quantas vezes esse loop deve rodar? '))
 soma = 0
@@ -73,3 +73,17 @@ for n in range(1, qtd + 1):
     num = int(input(f'Informe o {n}/{qtd} valor: '))
     soma += num
 print(f'A soma é {soma}')
+
+nome = 'Geek University'
+for letra in nome:
+    print(letra, end=' ')
+
+Tabela de Emojis Unicode: https://apps.timwhitlock.info/emoji/tables/unicode
+"""
+
+# Original: U+1F60D
+# Modificado: U0001F60D
+
+for _ in range(3):
+    for num in range(1, 11):
+        print('\U0001F60D' * num)
