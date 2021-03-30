@@ -110,6 +110,21 @@ print(nova)
 nova *= 3
 print(nova)
 
+# Podemos facilmente converter uma string para uma lista
+
+# Exemplo um 1
+
+curso = 'Programação em Python: Essencial'
+print(curso)
+curso = curso.split()
+print(curso)
+# OBS: Por padrão, o split separa os elementos da lista pelo espaço entre eles.
+
+# Exemplo 2
+curso = 'Programação,em,Python:,Essencial'
+print(curso)
+curso = curso.split(',')
+print(curso)
 """
 
 lista1 = [1, 99, 4, 27, 15, 22, 3, 1, 44, 42, 27]
@@ -122,4 +137,13 @@ lista4 = list(range(11))
 
 lista5 = list('Geek University')
 
+# Convertendo uma lista em uma string
+lista6 = ['Programação', 'em', 'Python:', 'Essencial']
+print(lista6)
 
+# Abaixo estamos falando: pega a lista 6, coloca espaço entre cada elemento e transforma em uma string
+curso = ' '.join(lista6)
+print(curso)
+
+curso = '$'.join(lista6)
+print(curso)
