@@ -261,3 +261,4 @@ print(numeros.index(5, 2)) # buscando a partir do índice 2
 
 # Podemos fazer busca dentro de um range, inicio/fim
 print(numeros.index(8, 3, 6)) # Buscar o índice do valor 8, entre 3 e 6
+print('teste')
