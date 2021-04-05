@@ -231,9 +231,6 @@ lista.append(33)
 lista.append(42)
 print(lista)
 
-
-"""
-
 # Outros métodos não tão importantes mas também úteis
 
 # Encontrar o índice de um elemento na lista
@@ -261,3 +258,28 @@ print(numeros.index(5, 2)) # buscando a partir do índice 2
 
 # Podemos fazer busca dentro de um range, inicio/fim
 print(numeros.index(8, 3, 6)) # Buscar o índice do valor 8, entre 3 e 6
+
+"""
+
+# Revisão de slicing
+
+# lista[inicio:fim:passo]
+# range(inicio:fim:passo)
+
+# trabalhando com slice de lista com o parâmetro 'inicio'
+
+lista = [1, 2, 3, 4]
+
+print(lista[1:]) # iniciando no índice 1 e pegando todos os elementos restantes
+
+# trabalhando com slice de lista com o parâmetro 'fim'
+
+print(lista[:2])  # começa em 0, pega até o índice 2 - 1
+
+print(lista[:4])  # Começa em 0, pega até o índice 4 - 1
+
+print(lista[1:3])  # Começa em 1, pega até o índice 3 - 1
+
+# trabalhando com slice de lista com o parâmetro 'passo'
+
+print(lista[1::2])  # começa em 1, vai até o final, de 2 em 2
