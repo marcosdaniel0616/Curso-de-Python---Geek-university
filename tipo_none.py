@@ -12,6 +12,8 @@ Errado: none
 Quando utilizamos?
 - Podemos utilizar o tipo None quando queremos criar uma variável e inicializá-la com um tipo sem tipo, antes
 de recebermos um valor final.
+
+OBS: O tipo None em python é SEMPRE considerado como False
 """
 
 numeros = None
