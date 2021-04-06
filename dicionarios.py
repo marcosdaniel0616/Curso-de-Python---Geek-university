@@ -56,12 +56,77 @@ pais = paises.get('py', 'Não encontrado')
 
 print(f'Encontrei o país {pais}')
 
-"""
-
-paises = {'br': 'Brasil', 'eua': 'Estados unidos', 'py': 'Paraguai'}
+# Podemos verificar se determinada chave se encontra no dicionário.
 
 print('br' in paises)
 
 print('ru' in paises)
 
 print('Estados unidos' in paises)
+
+if 'ru' in paises:
+    russia = paises['ru']
+
+# Podemos utilizar qualquer tipo de dado (int, float, string, float, boolean), inclusive lista, tupla,
+# dicionário, como chaves de dicionários.
+
+# Tuplas, por exemplo, são bastante interessantes de serem utilizadas como chaves de dicionários, pois as mesas são
+# imutáveis.
+
+localidades = {
+    (35.6895, 39.6917): 'Escritório em Tokyo',
+    (40.7128, 74.0060): 'Escritório em Nova York',
+    (37.7749, 112.4194): 'Escritório em São Paulo',
+}
+
+print(localidades)
+print(type(localidades))
+
+# Adicionar elementos em um dicionário
+
+receita = { 'jan': 100, 'fev': 120, 'mar': 300}
+
+print(receita)
+print(type(receita))
+
+# Forma 1 - Mais comum
+receita['abr'] = 350
+
+print(receita)
+
+# Forma 2
+novo_dado = {'mai': 500}  # receita.update({'mai' : 500})
+
+receita.update(novo_dado)
+
+print(receita)
+
+# Atualizando dados em um dicionário
+
+# Forma 1
+receita['mai'] = 550
+
+print(receita)
+
+# Forma 2
+receita.update({'mai': 600})
+print(receita)
+
+# CONCLUSÃO 1: A forma de adicionar novos elementos ou atualizar dados em um dicionário, é a mesma.
+# CONCLUSÃO 2: Em dicionários, NÃO podemos ter chaves repetidas.
+
+"""
+
+# Remover dados de um dicionário
+
+receita = { 'jan': 100, 'fev': 120, 'mar': 300}
+
+print(receita)
+# Forma 1
+ret = receita.pop('mar')
+print(ret)
+
+print(receita)
+
+# OBS 1: Em dicionários, precisamos SEMPRE informar a chave, e caso não encontremos o elemento, um KeyError é retornado.
+# OBS 2: Ao removermos um objeto, o valor desse objeto é sempre retornado
