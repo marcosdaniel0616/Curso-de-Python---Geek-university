@@ -1,5 +1,5 @@
 """
-Listas
+Listas (list)
 
 Listas em Python funcionam como vetores/matrizes (arrays) em outras linguagens, com a diferença de serem DINÂMICO
 e também de podermos colocar QUALQUER tipo de dado.
@@ -15,6 +15,8 @@ Já em Python:
 - Qualquer tipo de dado: Não possuem tipo de dado fixo; Ou seja, podemos colocar qualquer tipo de dado;
 
 As listas em pythons são representadas por colchetes: []
+
+Listas são mutáveis: Ou seja, elas podem mudar constantemente.
 
 lista1 = [1, 99, 4, 27, 15, 22, 3, 1, 44, 42, 27]
 
