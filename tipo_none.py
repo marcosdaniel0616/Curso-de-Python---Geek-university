@@ -14,6 +14,7 @@ Quando utilizamos?
 de recebermos um valor final.
 
 OBS: O tipo None em python é SEMPRE considerado como False
+
 """
 
 numeros = None
