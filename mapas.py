@@ -44,3 +44,4 @@ print(sum(receita.values()))
 print(max(receita.values()))
 print(min(receita.values()))
 print(len(receita))
+
