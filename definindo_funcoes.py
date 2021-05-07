@@ -107,6 +107,7 @@ diz_oi ()
 
 
 def cantar_parabens():
+    """Função que canta parabéns"""
     print('Parabéns pra você')
     print('Nesta data querida')
     print('Muitas felicidades')

@@ -110,6 +110,7 @@ print(nome_completo(sobrenome='Marques', nome='Marcia'))
 
 
 def soma_impares(numeros):
+    """Função que soma os números ímpares"""
     total = 0
     for numero in numeros:
         if numero % 2 != 0:

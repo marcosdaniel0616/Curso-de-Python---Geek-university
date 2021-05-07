@@ -107,6 +107,7 @@ print(joga_moeda())
 
 
 def eh_impar():
+    """Função que retorna se o número é impar"""
     numero = 6
     if numero % 2 != 0:
         return True
