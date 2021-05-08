@@ -58,3 +58,21 @@ print(verifica_info('Geek', 'University'))
 """
 
 
+def soma_todos_numeros(*args):
+    """Retorna a soma de todos os argumentos"""
+    return sum(args)
+
+
+# print(soma_todos_numeros())
+# print(soma_todos_numeros(3, 4, 5, 6))
+
+numeros = [1, 2, 3, 4, 5, 6]
+
+
+# Desemcopatodor
+
+print(soma_todos_numeros(*numeros))
+
+# Obs: O asterisco serve para que informemos ao Python que estamos passando como argumento uma coleção de dados.
+# Desta forma, ele saberá que precisará antes desempacotar estes dados.
+
