@@ -1,4 +1,5 @@
 """
+
 Utilizando Lambdas
 
 Conhecidas por Expressões Lambdas, ou simplesmente Lambdas, são funções sem nome, ou seja,
@@ -21,6 +22,7 @@ print(funcao(7))
 
 # Expressão Lambda
 lambda x: 3 * x + 1
+
 
 # E como utilizar a expressão lambda?
 calc = lambda x: 3 * x + 1
@@ -62,7 +64,5 @@ print(autores)
 
 autores.sort(key=lambda sobrenome: sobrenome.split(' ')[-1].lower())
 
-print(autores
+print(autores)
 """
-
-)
