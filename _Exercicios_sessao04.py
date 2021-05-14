@@ -56,5 +56,33 @@ quilometros = float(input(f'Digite a velocidade em Km/h: '))
 metros = quilometros / 3.6
 print(f'A velocidade de {quilometros}km/h convertida para m/s fica: {metros:.2f}m/s')
 
+# Ex 11: Leia uma velocidade em m/s e apresente-a convertida em km/h.
+# Fórmula: K = M * 3.6
+
+metros = float(input('Digite a velocidade em m/s: '))
+quilometros = metros * 3.6
+print(f'A velocidade de {metros:.2f}m/s convertida para km/h fica: {quilometros:.2f}km/h')
+
+# Ex 12: Leia uma distância em milhas e apresente-a em quilômetros.
+# Fórmula: K = 1.61 * M
+
+milhas = float(input('Informe a distância em milhas: '))
+quilometros = 1.61 * milhas
+print(f'A distância de {milhas:.2f} milhas em quilômetros é de: {quilometros:.2f} quilômetros.')
+
+# Ex 13: Leia uma distância em quilômetros e apresente-a em milhas.
+# Fórmula: M = K / 1.61
+
+quilometros = float(input('Informe a distância em quilômetros: '))
+milhas = quilometros / 1.61
+print(f'A distância de {quilometros} convertida em milhas é de: {milhas} miilhas.'
+
 """
 
+# Ex 14: Leia um ângulo em graus e apresente-o convertido em radianos.
+# Fórmula: R = G * PI / 180. PI = 3.14.
+
+graus = float(input('Informe o valor do ângulo em graus: '))
+radiano = graus * 3.14 / 180
+
+print(f'O ângulo de {graus:.2f} graus convertido para radiano é de: {radiano:.2f}')
