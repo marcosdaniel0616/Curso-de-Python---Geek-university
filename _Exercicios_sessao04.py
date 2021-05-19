@@ -77,8 +77,6 @@ quilometros = float(input('Informe a distância em quilômetros: '))
 milhas = quilometros / 1.61
 print(f'A distância de {quilometros} convertida em milhas é de: {milhas} miilhas.'
 
-"""
-
 # Ex 14: Leia um ângulo em graus e apresente-o convertido em radianos.
 # Fórmula: R = G * PI / 180. PI = 3.14.
 
@@ -86,3 +84,6 @@ graus = float(input('Informe o valor do ângulo em graus: '))
 radiano = graus * 3.14 / 180
 
 print(f'O ângulo de {graus:.2f} graus convertido para radiano é de: {radiano:.2f}')
+"""
+
+# Ex 15:
