@@ -171,6 +171,22 @@ acres = float(input('Informe a área em acres: '))
 metros = acres * 4048.58
 print(f'A área de {acres} em acres é equivalente a área de {metros} metros quadrados.')
 
+# Ex 26: Leia um valor de área em metros quadrados e apresente-o em hectares.
+# Fórmula: H = M * 0.0001
+
+metros = float(input('Informe a área em metros quadrados m2: '))
+hectares = metros * 0.0001
+print(f'A área de {metros} metros quadrados em hectares é de: {hectares} hectares.')
+
+# Ex 27: Leia um valor de área em hectares e apresente-o em metros quadrados m2.
+# Fórmula: M = H * 10000
+
+hectares = float(input('Informe a área em hectares: '))
+metros = hectares * 10000
+print(f'A área de {hectares} hectares em metros quadrados (m2) é de: {metros} m2')
+
+
 """
 
+# Ex 28: Faça uma leitura de 3 valores e apresente como resultado a soma dos quadrados dos três valores.
 
